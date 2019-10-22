@@ -71,4 +71,14 @@ INNER JOIN Countries c ON t.CountryCode = c.Id
 WHERE t.CountryCode = (SELECT Id FROM Countries WHERE Name = 'Germany')
 
 --6-Remove Villain
-SELECT Name FROM Villains WHERE Id = 1;
+SELECT COUNT(*)
+FROM MinionsVillains
+WHERE VillainId = 1
+
+DELETE FROM MinionsVillains
+WHERE VillainId = 1
+
+DELETE FROM Villains
+WHERE Id = 222
+
+SELECT Name FROM Villains WHERE Id = 1
