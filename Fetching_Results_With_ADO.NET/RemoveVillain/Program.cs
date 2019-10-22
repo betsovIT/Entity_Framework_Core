@@ -45,6 +45,8 @@ namespace RemoveVillain
                     command.CommandText = $@"DELETE FROM Villains WHERE Id = {villainId}";
                     command.ExecuteNonQuery();
 
+                    transaction.Commit();
+
                     Console.WriteLine($"{villainName} was deleted.");
                     Console.WriteLine($"{affectedMinions} minions were released.");
                 }
