@@ -82,3 +82,25 @@ DELETE FROM Villains
 WHERE Id = 222
 
 SELECT Name FROM Villains WHERE Id = 1
+
+--7-Print All Minion Names
+SELECT Name FROM Minions
+
+--8-Increase Minion Age
+ UPDATE Minions
+   SET Name = UPPER(LEFT(Name, 1)) + SUBSTRING(Name, 2, LEN(Name)), Age += 1
+ WHERE Id IN ()
+
+SELECT Name, Age FROM Minions
+
+--Problem 9
+GO
+CREATE PROC usp_GetOlder @id INT
+AS
+UPDATE Minions
+   SET Age += 1
+ WHERE Id = @id
+
+SELECT Name, Age FROM Minions WHERE Id = @Id
+
+EXEC usp_GetOlder 1
