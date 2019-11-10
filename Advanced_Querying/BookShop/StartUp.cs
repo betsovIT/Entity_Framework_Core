@@ -1,8 +1,10 @@
 ﻿namespace BookShop
 {
+    using BookShop.Models;
     using BookShop.Models.Enums;
     using Data;
     using Initializer;
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Collections.Generic;
     using System.Globalization;
@@ -19,7 +21,7 @@
             {
                 DbInitializer.ResetDatabase(db);
 
-                Console.WriteLine(GetBookTitlesContaining(db,command));
+                Console.WriteLine(RemoveBooks(db));
             }
         }
 
@@ -240,6 +242,56 @@
             }
 
             return sb.ToString();
+        }
+
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var query = context.Categories
+                .Select(c => new 
+            {
+               Name = c.Name,
+               Books = c.CategoryBooks.Select(s => s.Book).OrderByDescending(s => s.ReleaseDate).ToList()
+            })
+                .OrderBy(c => c.Name);
+
+            var sb = new StringBuilder();
+
+            foreach (var entity in query)
+            {
+                sb.AppendLine($"--{entity.Name}");
+                for (int i = 0; i < 3; i++)
+                {
+                    sb.AppendLine($"{entity.Books[i].Title} ({entity.Books[i].ReleaseDate.Value.Year})");
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static void IncreasePrices(BookShopContext context)
+        {
+            var booksToCHange = context.Books.Where(b => b.ReleaseDate.Value.Year < 2010).ToList();
+
+            foreach (var book in booksToCHange)
+            {
+                book.Price += 5;
+            }
+
+            context.SaveChanges();
+        }
+
+        public static int RemoveBooks(BookShopContext context)
+        {
+            var bookIDs = context.Books.Where(b => b.Copies < 4200).Select(b => b.BookId).ToArray();
+            var books = context.Books.Where(b => b.Copies < 4200).ToList();
+            var mapings = context.BooksCategories.Where(b => bookIDs.Contains(b.BookId));
+
+            context.BooksCategories.RemoveRange(mapings);
+            context.Books.RemoveRange(books);
+
+            context.SaveChanges();
+
+            return bookIDs.Count();
         }
     }
 }
