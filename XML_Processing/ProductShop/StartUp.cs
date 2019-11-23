@@ -17,132 +17,29 @@ namespace ProductShop
     {
         public static void Main()
         {
-            //using (var db = new ProductShopContext())
-            //{
-            //    Mapper.Initialize(cfg => cfg.AddProfile<ProductShopProfile>());
-            //    db.Database.EnsureCreated();
+            using (var db = new ProductShopContext())
+            {
+                Mapper.Initialize(cfg => cfg.AddProfile<ProductShopProfile>());
+                db.Database.EnsureCreated();
 
-            //    string usersPath = @".\Datasets\users.xml";
-            //    string usersAsString = File.ReadAllText(usersPath);
-            //    string productsPath = @".\Datasets\products.xml";
-            //    string productsAsString = File.ReadAllText(productsPath);
-            //    string categoriesPath = @".\Datasets\categories.xml";
-            //    string categoriesAsString = File.ReadAllText(categoriesPath);
-            //    string CPPath = @".\Datasets\categories-products.xml";
-            //    string CPAsString = File.ReadAllText(CPPath);
+                string usersPath = @".\Datasets\users.xml";
+                string usersAsString = File.ReadAllText(usersPath);
+                string productsPath = @".\Datasets\products.xml";
+                string productsAsString = File.ReadAllText(productsPath);
+                string categoriesPath = @".\Datasets\categories.xml";
+                string categoriesAsString = File.ReadAllText(categoriesPath);
+                string CPPath = @".\Datasets\categories-products.xml";
+                string CPAsString = File.ReadAllText(CPPath);
 
 
-            //    //ImportUsers(db, usersAsString);
-            //    //ImportProducts(db, productsAsString);
-            //    //ImportCategories(db, categoriesAsString);
-            //    //ImportCategoryProducts(db, CPAsString);
+                //ImportUsers(db, usersAsString);
+                //ImportProducts(db, productsAsString);
+                //ImportCategories(db, categoriesAsString);
+                //ImportCategoryProducts(db, CPAsString);
 
-            //    //Console.WriteLine(GetCategoriesByProductsCount(db));
-            //}
+                Console.WriteLine(GetUsersWithProducts(db));
+            }
         }
-
-        //public static string ImportUsers(ProductShopContext context, string inputXml)
-        //{
-        //    XDocument users = XDocument.Parse(inputXml);
-        //    var resultUsers = new List<User>();
-        //    var usersParsed = users.Root.Elements();
-
-        //    foreach (var element in usersParsed)
-        //    {
-        //        var user = new User()
-        //        {
-        //            FirstName = element.Element("firstName").Value,
-        //            LastName = element.Element("lastName").Value,
-        //            Age = int.Parse(element.Element("age").Value)
-        //        };
-
-        //        resultUsers.Add(user);
-        //    }
-
-        //    context.Users.AddRange(resultUsers);
-        //    context.SaveChanges();
-
-        //    return $"Successfully imported {resultUsers.Count}";
-        //}
-
-        //public static string ImportProducts(ProductShopContext context, string inputXml)
-        //{
-        //    XDocument productsAsXML = XDocument.Parse(inputXml);
-        //    var resultProducts = new List<Product>();
-        //    var parsedProducts = productsAsXML.Root.Elements();
-
-        //    foreach (var rawProduct in parsedProducts)
-        //    {
-        //        var product = new Product()
-        //        {
-        //            Name = rawProduct.Element("name").Value,
-        //            Price = decimal.Parse(rawProduct.Element("price").Value),
-        //            SellerId = int.Parse(rawProduct.Element("sellerId").Value),
-        //            BuyerId = rawProduct.Element("buyerId")?.Value != null ? int.Parse(rawProduct.Element("buyerId").Value) : (int?)null
-        //        };
-
-        //        resultProducts.Add(product);
-        //    }
-
-        //    context.Products.AddRange(resultProducts);
-        //    context.SaveChanges();
-
-        //    return $"Successfully imported {resultProducts.Count}";
-        //}
-
-        //public static string ImportCategories(ProductShopContext context, string inputXml)
-        //{
-        //    XDocument categoriesAsXML = XDocument.Parse(inputXml);
-        //    var parsedCategories = categoriesAsXML.Root.Elements();
-        //    var resultCategories = new List<Category>();
-
-        //    foreach (var rawCategory in parsedCategories)
-        //    {
-        //        var category = new Category()
-        //        {
-        //            Name = rawCategory.Element("name").Value
-        //        };
-
-        //        resultCategories.Add(category);
-        //    }
-
-        //    context.Categories.AddRange(resultCategories);
-        //    context.SaveChanges();
-
-        //    return $"Successfully imported {resultCategories.Count}";
-        //}
-
-        //public static string ImportCategoryProducts(ProductShopContext context, string inputXml)
-        //{
-        //    XDocument categoriesProductsAsXML = XDocument.Parse(inputXml);
-        //    var parsedCP = categoriesProductsAsXML.Root.Elements();
-        //    var resultCP = new List<CategoryProduct>();
-
-        //    foreach (var rawCP in parsedCP)
-        //    {
-        //        int categoryId = int.Parse(rawCP.Element("CategoryId").Value);
-        //        int productId = int.Parse(rawCP.Element("ProductId").Value);
-
-        //        if (context.Categories.Any(c => c.Id == categoryId) && context.Products.Any(p => p.Id == productId))
-        //        {
-        //            var newCP = new CategoryProduct()
-        //            {
-        //                CategoryId = categoryId,
-        //                ProductId = productId
-        //            };
-
-        //            if (!resultCP.Any(x => x.CategoryId == newCP.CategoryId && x.ProductId == newCP.ProductId))
-        //            {
-        //                resultCP.Add(newCP);
-        //            }
-        //        }
-        //    }
-
-        //    context.CategoryProducts.AddRange(resultCP);
-        //    context.SaveChanges();
-
-        //    return $"Successfully imported {resultCP.Count}";
-        //}
 
         public static string ImportUsers(ProductShopContext context, string inputXml)
         {
@@ -293,7 +190,7 @@ namespace ProductShop
                     TotalRevenue = c.CategoryProducts.Sum(x => x.Product.Price)
                 })
                 .OrderByDescending(c => c.Count)
-                .ThenByDescending(c => c.TotalRevenue)
+                .ThenBy(c => c.TotalRevenue)
                 .ToArray();
 
             var serializer = new XmlSerializer(categories.GetType(), new XmlRootAttribute("Categories"));
@@ -301,6 +198,47 @@ namespace ProductShop
             var sb = new StringBuilder();
 
             serializer.Serialize(new StringWriter(sb), categories, namespaces);
+
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context.Users
+                .Where(u => u.ProductsSold.Count >= 1)
+                .OrderByDescending(u => u.ProductsSold.Count)
+                .Select(u => new UsersExportDTO
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    Age = u.Age,                    
+                    SoldPorducts = new SoldProductDTO 
+                    {
+                        Count = u.ProductsSold.Count,
+                        Products = u.ProductsSold.Select(ps => new ProductExportDTO
+                        {
+                            Price = ps.Price,
+                            Name = ps.Name
+                        })
+                        .OrderByDescending(ps => ps.Price)
+                        .ToArray()
+                    }
+                })
+                .Take(10)
+                .ToArray();
+
+            var usersFormated = new UsersFinalExportDTO
+            {
+                Count = context.Users.Count(u => u.ProductsSold.Any()),
+                Users = users
+            };
+
+            var serializer = new XmlSerializer(usersFormated.GetType(), new XmlRootAttribute("Users"));
+            var namespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
+            var sb = new StringBuilder();
+
+            serializer.Serialize(new StringWriter(sb), usersFormated, namespaces);
 
 
             return sb.ToString().TrimEnd();
