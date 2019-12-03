@@ -10,7 +10,7 @@ namespace VaporStore.Data.Models
         [MinLength(3), MaxLength(20), Required]
         public string Username { get; set; }
 
-        [RegularExpression(@"^[A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+$")]
+        [RegularExpression(@"^[A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+$"), Required]
         public string FullName { get; set; }
 
         [Required]
