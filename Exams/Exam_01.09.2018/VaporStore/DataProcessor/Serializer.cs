@@ -1,11 +1,15 @@
 ﻿namespace VaporStore.DataProcessor
 {
     using System;
+    using System.Globalization;
+    using System.IO;
     using System.Linq;
     using System.Text;
+    using System.Xml;
     using System.Xml.Serialization;
     using Data;
     using Newtonsoft.Json;
+    using VaporStore.DataProcessor.ExportDTO;
 
     public static class Serializer
     {
@@ -45,7 +49,44 @@
 
         public static string ExportUserPurchasesByType(VaporStoreDbContext context, string storeType)
         {
-            throw new NotImplementedException();
+            var sb = new StringBuilder();
+
+            var users = context.Users
+                .Select(user => new UserExportDTO
+                {
+                    Username = user.Username,
+                    Purchases = user.Cards.SelectMany(p => p.Purchases)
+                    .Where(p => p.Type.ToString() == storeType)
+                    .Select(p => new PurchaseExportDTO
+                    {
+                        Cvc = p.Card.Cvc,
+                        Date = p.Date.ToString(@"yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture),
+                        Card = p.Card.Number,
+                        Game = new GameExportDTO
+                        {
+                            Title = p.Game.Name,
+                            Genre = p.Game.Genre.Name,
+                            Price = p.Game.Price
+                        }
+                    })
+                    .OrderBy(p => p.Date)
+                    .ToArray(),
+                    TotalSpent = user.Cards.SelectMany(c => c.Purchases)
+                    .Where(p => p.Type.ToString() == storeType)
+                    .Sum(p => p.Game.Price)                    
+                })
+                .Where(p => p.Purchases.Any())
+                .OrderByDescending(u => u.TotalSpent)
+                .ThenBy(u => u.Username)
+                .ToArray();
+
+
+            var serializer = new XmlSerializer(typeof(UserExportDTO[]), new XmlRootAttribute("Users"));
+            var namespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
+
+            serializer.Serialize(new StringWriter(sb), users, namespaces);
+
+            return sb.ToString().TrimEnd();
         }
     }
 }
