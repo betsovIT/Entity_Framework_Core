@@ -156,9 +156,7 @@
 
                 var IsWeaponValid = Enum.IsDefined(typeof(Weapon), result.Weapon);
 
-                var IsDepartmentValid = context.Departments.Any(d => d.Id == result.DepartmentId);
-
-                if (IsPositionValid && IsWeaponValid && IsDepartmentValid)
+                if (IsPositionValid && IsWeaponValid)
                 {
                     officer.Position = (Position)Enum.Parse(typeof(Position),result.Position);
                     officer.Weapon = (Weapon)Enum.Parse(typeof(Weapon), result.Weapon); ;
@@ -172,8 +170,7 @@
 
                 if (IsValid(officer))
                 {
-                    if (result.Prisoners.All(p => context.Prisoners.Any(pr => pr.Id == p.Id)))
-                    {
+                    
                         officer.OfficerPrisoners = result.Prisoners
                              .Select(p => new OfficerPrisoner()
                              {
@@ -182,11 +179,7 @@
 
                         officers.Add(officer);
                         sb.AppendLine($"Imported {officer.FullName} ({officer.OfficerPrisoners.Count} prisoners)");
-                    }
-                    else
-                    {
-                        sb.AppendLine("Invalid Data");
-                    }
+                    
                 }
                 else
                 {
