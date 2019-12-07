@@ -1,0 +1,1088 @@
+[
+  {
+    "Username": "mmcellen1",
+    "Tasks": [
+      {
+        "TaskName": "Plains Fleabane",
+        "OpenDate": "05/15/2018",
+        "DueDate": "11/03/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Oregon Figwort",
+        "OpenDate": "05/12/2018",
+        "DueDate": "09/06/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Nodding Sage",
+        "OpenDate": "04/02/2018",
+        "DueDate": "08/19/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Rubber Rabbitbrush",
+        "OpenDate": "06/16/2018",
+        "DueDate": "07/21/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Fir Clubmoss",
+        "OpenDate": "09/15/2018",
+        "DueDate": "07/08/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Sea Kale",
+        "OpenDate": "02/10/2018",
+        "DueDate": "07/03/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Southern Hawkweed",
+        "OpenDate": "10/13/2018",
+        "DueDate": "06/18/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "California Dwarf-flax",
+        "OpenDate": "10/01/2018",
+        "DueDate": "06/01/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Stickystem Penstemon",
+        "OpenDate": "05/10/2018",
+        "DueDate": "04/10/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Gairdner's Yampah",
+        "OpenDate": "05/16/2018",
+        "DueDate": "04/07/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Northland",
+        "OpenDate": "07/31/2018",
+        "DueDate": "04/06/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Longbract Pohlia Moss",
+        "OpenDate": "09/13/2018",
+        "DueDate": "03/29/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Toothed Midsorus Fern",
+        "OpenDate": "04/24/2018",
+        "DueDate": "03/18/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Guadeloupe",
+        "OpenDate": "02/14/2018",
+        "DueDate": "02/09/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Florida Toadwood",
+        "OpenDate": "05/15/2018",
+        "DueDate": "02/02/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Bryum",
+        "OpenDate": "11/02/2018",
+        "DueDate": "01/19/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "American Star-thistle",
+        "OpenDate": "09/21/2018",
+        "DueDate": "11/29/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Plains Flax",
+        "OpenDate": "02/07/2018",
+        "DueDate": "11/22/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      }
+    ]
+  },
+  {
+    "Username": "olathleiffurec",
+    "Tasks": [
+      {
+        "TaskName": "Nodding Sage",
+        "OpenDate": "04/02/2018",
+        "DueDate": "08/19/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Pale Spikerush",
+        "OpenDate": "04/26/2018",
+        "DueDate": "07/20/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Comfortroot",
+        "OpenDate": "07/14/2018",
+        "DueDate": "06/10/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Annual",
+        "OpenDate": "05/10/2018",
+        "DueDate": "06/07/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Bashful Four O'clock",
+        "OpenDate": "05/08/2018",
+        "DueDate": "04/21/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Maguire's Milkvetch",
+        "OpenDate": "05/12/2018",
+        "DueDate": "04/19/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Toothed Midsorus Fern",
+        "OpenDate": "04/24/2018",
+        "DueDate": "03/18/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Lac Tree",
+        "OpenDate": "06/22/2018",
+        "DueDate": "02/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Crandall",
+        "OpenDate": "03/12/2018",
+        "DueDate": "02/21/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Bituminaria",
+        "OpenDate": "07/28/2018",
+        "DueDate": "02/03/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Tricharia Lichen",
+        "OpenDate": "08/21/2018",
+        "DueDate": "01/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Guadalupe",
+        "OpenDate": "09/29/2018",
+        "DueDate": "12/23/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Munz's Buckwheat",
+        "OpenDate": "07/18/2018",
+        "DueDate": "12/18/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Yellow Wildrye",
+        "OpenDate": "07/26/2018",
+        "DueDate": "12/12/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Little Bluestem",
+        "OpenDate": "07/04/2018",
+        "DueDate": "12/02/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Wirestem Buckwheat",
+        "OpenDate": "04/13/2018",
+        "DueDate": "11/22/2018",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Cyrtandra",
+        "OpenDate": "08/04/2018",
+        "DueDate": "11/14/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "ymarcumt",
+    "Tasks": [
+      {
+        "TaskName": "Cornflag",
+        "OpenDate": "09/27/2018",
+        "DueDate": "09/25/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Rubber Rabbitbrush",
+        "OpenDate": "06/16/2018",
+        "DueDate": "07/21/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "California Dwarf-flax",
+        "OpenDate": "10/01/2018",
+        "DueDate": "06/01/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Hairy Mountain Mahogany",
+        "OpenDate": "09/21/2018",
+        "DueDate": "04/29/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Umbrella-tree",
+        "OpenDate": "07/12/2018",
+        "DueDate": "04/29/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "White",
+        "OpenDate": "10/04/2018",
+        "DueDate": "04/21/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Roundleaf Leather-root",
+        "OpenDate": "08/28/2018",
+        "DueDate": "04/11/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Western Mountain Aster",
+        "OpenDate": "09/08/2018",
+        "DueDate": "03/30/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Longbract Pohlia Moss",
+        "OpenDate": "09/13/2018",
+        "DueDate": "03/29/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Toothed Midsorus Fern",
+        "OpenDate": "04/24/2018",
+        "DueDate": "03/18/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Lac Tree",
+        "OpenDate": "06/22/2018",
+        "DueDate": "02/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Arctic Raspberry",
+        "OpenDate": "06/23/2018",
+        "DueDate": "01/29/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Valamuerto",
+        "OpenDate": "08/23/2018",
+        "DueDate": "01/15/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Broadleaf",
+        "OpenDate": "03/21/2018",
+        "DueDate": "12/18/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Little Bluestem",
+        "OpenDate": "07/04/2018",
+        "DueDate": "12/02/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "American Star-thistle",
+        "OpenDate": "09/21/2018",
+        "DueDate": "11/29/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Wirestem Buckwheat",
+        "OpenDate": "04/13/2018",
+        "DueDate": "11/22/2018",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "nbremenj",
+    "Tasks": [
+      {
+        "TaskName": "Pointed Gourd",
+        "OpenDate": "10/08/2018",
+        "DueDate": "10/24/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Nodding Sage",
+        "OpenDate": "04/02/2018",
+        "DueDate": "08/19/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Fir Clubmoss",
+        "OpenDate": "09/15/2018",
+        "DueDate": "07/08/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Paradox",
+        "OpenDate": "05/11/2018",
+        "DueDate": "05/15/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Roundleaf Leather-root",
+        "OpenDate": "08/28/2018",
+        "DueDate": "04/11/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Strawberry Clover",
+        "OpenDate": "10/08/2018",
+        "DueDate": "04/04/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Toothed Midsorus Fern",
+        "OpenDate": "04/24/2018",
+        "DueDate": "03/18/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Florida Toadwood",
+        "OpenDate": "05/15/2018",
+        "DueDate": "02/02/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Arctic Raspberry",
+        "OpenDate": "06/23/2018",
+        "DueDate": "01/29/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Valamuerto",
+        "OpenDate": "08/23/2018",
+        "DueDate": "01/15/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Guadalupe",
+        "OpenDate": "09/29/2018",
+        "DueDate": "12/23/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Loeskypnum Moss",
+        "OpenDate": "07/28/2018",
+        "DueDate": "11/20/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Spreading Sandwort",
+        "OpenDate": "02/19/2018",
+        "DueDate": "11/20/2018",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Cypress Panicgrass",
+        "OpenDate": "10/19/2018",
+        "DueDate": "11/17/2018",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Cyrtandra",
+        "OpenDate": "08/04/2018",
+        "DueDate": "11/14/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "jbehlingp",
+    "Tasks": [
+      {
+        "TaskName": "Plains Fleabane",
+        "OpenDate": "05/15/2018",
+        "DueDate": "11/03/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Pacific",
+        "OpenDate": "05/14/2018",
+        "DueDate": "07/05/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Hairy Mountain Mahogany",
+        "OpenDate": "09/21/2018",
+        "DueDate": "04/29/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Stickystem Penstemon",
+        "OpenDate": "05/10/2018",
+        "DueDate": "04/10/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Gairdner's Yampah",
+        "OpenDate": "05/16/2018",
+        "DueDate": "04/07/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Moleplant",
+        "OpenDate": "01/26/2018",
+        "DueDate": "02/12/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Valamuerto",
+        "OpenDate": "08/23/2018",
+        "DueDate": "01/15/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Clammy",
+        "OpenDate": "04/30/2018",
+        "DueDate": "01/03/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Scarlet Globemallow",
+        "OpenDate": "06/08/2018",
+        "DueDate": "12/29/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Munz's Buckwheat",
+        "OpenDate": "07/18/2018",
+        "DueDate": "12/18/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Clustered Sawwort",
+        "OpenDate": "07/21/2018",
+        "DueDate": "12/09/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Burchell's Clover",
+        "OpenDate": "06/17/2018",
+        "DueDate": "12/03/2018",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Little Bluestem",
+        "OpenDate": "07/04/2018",
+        "DueDate": "12/02/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Cyrtandra",
+        "OpenDate": "08/04/2018",
+        "DueDate": "11/14/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "mbarendtsena",
+    "Tasks": [
+      {
+        "TaskName": "Nipa Palm",
+        "OpenDate": "10/14/2018",
+        "DueDate": "09/19/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Rubber Rabbitbrush",
+        "OpenDate": "06/16/2018",
+        "DueDate": "07/21/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Sea Kale",
+        "OpenDate": "02/10/2018",
+        "DueDate": "07/03/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Uvero De Monte",
+        "OpenDate": "06/19/2018",
+        "DueDate": "06/14/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Annual",
+        "OpenDate": "05/10/2018",
+        "DueDate": "06/07/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Fineleaf",
+        "OpenDate": "08/31/2018",
+        "DueDate": "04/18/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Northland",
+        "OpenDate": "07/31/2018",
+        "DueDate": "04/06/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Crandall",
+        "OpenDate": "03/12/2018",
+        "DueDate": "02/21/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Moleplant",
+        "OpenDate": "01/26/2018",
+        "DueDate": "02/12/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Tricharia Lichen",
+        "OpenDate": "08/21/2018",
+        "DueDate": "01/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Arizona Hedgehog Cactus",
+        "OpenDate": "05/06/2018",
+        "DueDate": "12/17/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "American Star-thistle",
+        "OpenDate": "09/21/2018",
+        "DueDate": "11/29/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Loeskypnum Moss",
+        "OpenDate": "07/28/2018",
+        "DueDate": "11/20/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Cyrtandra",
+        "OpenDate": "08/04/2018",
+        "DueDate": "11/14/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "pnicolsonb",
+    "Tasks": [
+      {
+        "TaskName": "Cornflag",
+        "OpenDate": "09/27/2018",
+        "DueDate": "09/25/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Felt Lichen",
+        "OpenDate": "06/14/2018",
+        "DueDate": "09/06/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Blueeyed",
+        "OpenDate": "10/22/2018",
+        "DueDate": "06/25/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "California Dwarf-flax",
+        "OpenDate": "10/01/2018",
+        "DueDate": "06/01/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Fineleaf",
+        "OpenDate": "08/31/2018",
+        "DueDate": "04/18/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Roundleaf Leather-root",
+        "OpenDate": "08/28/2018",
+        "DueDate": "04/11/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Stickystem Penstemon",
+        "OpenDate": "05/10/2018",
+        "DueDate": "04/10/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Longbract Pohlia Moss",
+        "OpenDate": "09/13/2018",
+        "DueDate": "03/29/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Carrotwood",
+        "OpenDate": "07/23/2018",
+        "DueDate": "03/11/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Feverfew",
+        "OpenDate": "07/05/2018",
+        "DueDate": "02/26/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Tricharia Lichen",
+        "OpenDate": "08/21/2018",
+        "DueDate": "01/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Scarlet Globemallow",
+        "OpenDate": "06/08/2018",
+        "DueDate": "12/29/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Arizona Hedgehog Cactus",
+        "OpenDate": "05/06/2018",
+        "DueDate": "12/17/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Globe Ball Lichen",
+        "OpenDate": "07/23/2018",
+        "DueDate": "11/18/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      }
+    ]
+  },
+  {
+    "Username": "btorrejond",
+    "Tasks": [
+      {
+        "TaskName": "Plains Fleabane",
+        "OpenDate": "05/15/2018",
+        "DueDate": "11/03/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Nipa Palm",
+        "OpenDate": "10/14/2018",
+        "DueDate": "09/19/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Rubber Rabbitbrush",
+        "OpenDate": "06/16/2018",
+        "DueDate": "07/21/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Pacific",
+        "OpenDate": "05/14/2018",
+        "DueDate": "07/05/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Blueeyed",
+        "OpenDate": "10/22/2018",
+        "DueDate": "06/25/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Paradox",
+        "OpenDate": "05/11/2018",
+        "DueDate": "05/15/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Maguire's Milkvetch",
+        "OpenDate": "05/12/2018",
+        "DueDate": "04/19/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Carrotwood",
+        "OpenDate": "07/23/2018",
+        "DueDate": "03/11/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Lac Tree",
+        "OpenDate": "06/22/2018",
+        "DueDate": "02/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Crandall",
+        "OpenDate": "03/12/2018",
+        "DueDate": "02/21/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Guadeloupe",
+        "OpenDate": "02/14/2018",
+        "DueDate": "02/09/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Florida Toadwood",
+        "OpenDate": "05/15/2018",
+        "DueDate": "02/02/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Debeque",
+        "OpenDate": "10/17/2018",
+        "DueDate": "01/25/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "Finished"
+      }
+    ]
+  },
+  {
+    "Username": "kmurrow9",
+    "Tasks": [
+      {
+        "TaskName": "Nipa Palm",
+        "OpenDate": "10/14/2018",
+        "DueDate": "09/19/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Pale Spikerush",
+        "OpenDate": "04/26/2018",
+        "DueDate": "07/20/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Pacific",
+        "OpenDate": "05/14/2018",
+        "DueDate": "07/05/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Blueeyed",
+        "OpenDate": "10/22/2018",
+        "DueDate": "06/25/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Meyen's Sedge",
+        "OpenDate": "10/09/2018",
+        "DueDate": "05/05/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "White",
+        "OpenDate": "10/04/2018",
+        "DueDate": "04/21/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Bituminaria",
+        "OpenDate": "07/28/2018",
+        "DueDate": "02/03/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Florida Toadwood",
+        "OpenDate": "05/15/2018",
+        "DueDate": "02/02/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Debeque",
+        "OpenDate": "10/17/2018",
+        "DueDate": "01/25/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Broadleaf",
+        "OpenDate": "03/21/2018",
+        "DueDate": "12/18/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Munz's Buckwheat",
+        "OpenDate": "07/18/2018",
+        "DueDate": "12/18/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Plains Flax",
+        "OpenDate": "02/07/2018",
+        "DueDate": "11/22/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Cypress Panicgrass",
+        "OpenDate": "10/19/2018",
+        "DueDate": "11/17/2018",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "pclaffeyq",
+    "Tasks": [
+      {
+        "TaskName": "Cornflag",
+        "OpenDate": "09/27/2018",
+        "DueDate": "09/25/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Pale Spikerush",
+        "OpenDate": "04/26/2018",
+        "DueDate": "07/20/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "White",
+        "OpenDate": "10/04/2018",
+        "DueDate": "04/21/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Maguire's Milkvetch",
+        "OpenDate": "05/12/2018",
+        "DueDate": "04/19/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Florida Toadwood",
+        "OpenDate": "05/15/2018",
+        "DueDate": "02/02/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Debeque",
+        "OpenDate": "10/17/2018",
+        "DueDate": "01/25/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Tricharia Lichen",
+        "OpenDate": "08/21/2018",
+        "DueDate": "01/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Arizona Hedgehog Cactus",
+        "OpenDate": "05/06/2018",
+        "DueDate": "12/17/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Yellow Wildrye",
+        "OpenDate": "07/26/2018",
+        "DueDate": "12/12/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Clustered Sawwort",
+        "OpenDate": "07/21/2018",
+        "DueDate": "12/09/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Burchell's Clover",
+        "OpenDate": "06/17/2018",
+        "DueDate": "12/03/2018",
+        "LabelType": "Hibernate",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Globe Ball Lichen",
+        "OpenDate": "07/23/2018",
+        "DueDate": "11/18/2018",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Cyrtandra",
+        "OpenDate": "08/04/2018",
+        "DueDate": "11/14/2018",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  }
+]
